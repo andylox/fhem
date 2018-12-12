@@ -10,10 +10,10 @@ Copy both ih the folder /opt/fhem/FHEM/ and restart FHEM.
 
 Define
 
-    define <name> KLF200 <host> <pwfile>
-
+    define <name> KLF200 <host>
+    
     Example:
-        define Velux KLF200 192.168.0.66 /opt/fhem/etc/veluxpw.txt
+        define Velux KLF200 192.168.0.66
         
 The devices will be created by auto create as instances of KLF200Node.
 
